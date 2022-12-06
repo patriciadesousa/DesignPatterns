@@ -23,5 +23,7 @@ public class StringBar extends Bar{
         flag = false;
         notifyObservers();
     }
-
+    public void order(StringDrink drink, StringRecipe recipe){
+        recipe.mix(drink);
+    }
 }
