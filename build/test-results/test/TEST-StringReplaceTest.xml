@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StringReplaceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-06T15:32:05" hostname="DESKTOP-5S8HCDK" time="0.023">
+  <properties/>
+  <testcase name="stringReplacer()" classname="StringReplaceTest" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
