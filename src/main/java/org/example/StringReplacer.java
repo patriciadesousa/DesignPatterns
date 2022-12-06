@@ -16,4 +16,10 @@ public class StringReplacer implements StringTransformer{
         String s1 = s.replace(old, novo);
         drink.setText(s1);
     }
+    @Override
+    public void undo(StringDrink drink){
+        String s = drink.getText();
+        String s1 = s.replace(novo, old);
+        drink.setText(s1);
+    }
 }
